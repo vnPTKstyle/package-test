@@ -1,0 +1,25 @@
+{
+    "name": "your-vendor/your-package",
+    "description": "A custom package for Laravel projects",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "CaculatorVendor\\CaculatorPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CaculatorVendor\\CaculatorPackage\\CalulatorPackageServiceProvider"
+            ],
+            "aliases": {
+                "YourPackage": "CaculatorVendor\\CaculatorPackage\\Facades\\CaculatorPackage"
+            }
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": ">=8.0"
+    }
+}
