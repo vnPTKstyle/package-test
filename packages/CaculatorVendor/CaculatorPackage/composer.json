@@ -1,5 +1,5 @@
 {
-    "name": "your-vendor/your-package",
+    "name": "vnptkstyle/calculator-package",
     "description": "A custom package for Laravel projects",
     "type": "library",
     "license": "MIT",
